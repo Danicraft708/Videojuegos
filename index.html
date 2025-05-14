@@ -204,84 +204,80 @@ Cell Spacing
     </style>
 </head>
 <body>
-    <h1>Formulario de Contacto</h1>
-    
-    <form action="#" method="post">
-        <div class="form-group">
-            <label for="nombre">Nombre del jugador:</label>
-            <input type="text" id="nombre" name="nombre" required>
-        </div>
-    <div>
+    <h2>Formulario de Contacto</h2>
+<form action="#" method="post" style="max-width: 600px; margin: auto; background-color: rgba(0,0,0,0.8); padding: 20px; border: 2px solid #00ffff; border-radius: 10px; box-shadow: 0 0 10px #00ffff;">
 
-        <label for="fecha">fecha de nacimiento:</label><br>
-       <input type="date" id="fecha" name="fecha" ><br><br>
-    </div>       
-        
-        <div class="form-group">
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-<div>
-    <label for="archivo">sube tu archivo:</label><br>
-   <input type="file" id="archivo" name="archivo" required><br><br>
+  <div class="form-group">
+    <label for="nombre">Nombre del jugador:</label>
+    <input type="text" id="nombre" name="nombre" required>
+  </div>
 
-</div>
-        
-        <div class="form-group">
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono">
-        </div>
-        <div class="form-group">
-            <label for="videojuegos">Videojuego Favorito:</label>
-            <input type="text" id="Videojuego" name="Videojuego">
-        </div>
+  <div class="form-group">
+    <label for="fecha">Fecha de nacimiento:</label>
+    <input type="date" id="fecha" name="fecha">
+  </div>
 
-        <div class="form-group">
-            <label for="Género">Género:</label>
-            <select id="Género" name="Género">
-                <option value="Sandbox">Sandbox</option>
-                <option value="RPG">RPG</option>
-                <option value="Acción">Acción</option>
-                <option value="Aventura">Aventura</option>
-                <option value="Shooter">Shooter</option>
-                <option value="Otro">Otro</option>
-            </select>
-        </div>
-     <div>
-         <label for="hora">Hora de Desarrollo del Formulario:</label><br>
-        <input type="time" id="hora" name="hora" ><br><br>
+  <div class="form-group">
+    <label for="email">Correo Electrónico:</label>
+    <input type="email" id="email" name="email" required>
+  </div>
 
-     </div>
+  <div class="form-group">
+    <label for="archivo">Sube tu archivo:</label>
+    <input type="file" id="archivo" name="archivo" required>
+  </div>
 
-        <div class="form-group">
-            <label for="¿Lo Juegas Online?">¿Lo Juegas Online?:</label>
-            <select id="¿Lo Juegas Online?" name="Pais">
-                <option value="Si">Si</option>
-                <option value="No">No</option>
-                
-            </select>
-        </div>
-        
-        <div class="form-group">
-            <label for="¿Porqué lo Recomiendas?">¿Porqué lo Recomiendas? :</label>
-            <textarea id="¿Porqué lo Recomiendas?" name="¿Porqué lo Recomiendas?" rows="5" required></textarea>
-        </div>
-        
-        <div class="form-group">
-            <label>
-                <input type="checkbox" style="margin-top: -100px;" name="terminos">    
-                    Acepto los términos y condiciones
-            
-            </label>
-        </div>
-        
-        <button type="submit">Enviar</button>
-        <button type="reset">Limpiar</button>
-        <button type="button" onclick="alert('¡Hola! ')">Botón personalizado</button>
-    </form>
-    <footer style="margin-top: 40px; text-align: center;">
-        <p>Hecho con 💙 por Daniel Reyes</p>
-      </footer>
+  <div class="form-group">
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono">
+  </div>
+
+  <div class="form-group">
+    <label for="Videojuego">Videojuego Favorito:</label>
+    <input type="text" id="Videojuego" name="Videojuego">
+  </div>
+
+  <div class="form-group">
+    <label for="Género">Género:</label>
+    <select id="Género" name="Género">
+      <option value="Sandbox">Sandbox</option>
+      <option value="RPG">RPG</option>
+      <option value="Acción">Acción</option>
+      <option value="Aventura">Aventura</option>
+      <option value="Shooter">Shooter</option>
+      <option value="Otro">Otro</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="hora">Hora de Desarrollo del Formulario:</label>
+    <input type="time" id="hora" name="hora">
+  </div>
+
+  <div class="form-group">
+    <label for="online">¿Lo Juegas Online?</label>
+    <select id="online" name="online">
+      <option value="Si">Sí</option>
+      <option value="No">No</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="recomendacion">¿Por qué lo recomiendas?</label>
+    <textarea id="recomendacion" name="recomendacion" rows="5" required></textarea>
+  </div>
+
+  <div class="form-group">
+    <label>
+      <input type="checkbox" name="terminos"> Acepto los términos y condiciones
+    </label>
+  </div>
+
+  <button type="submit">Enviar</button>
+  <button type="reset">Limpiar</button>
+  <button type="button" onclick="alert('¡Hola!')">Botón personalizado</button>
+</form>
+
       
 </body>
 </body>
